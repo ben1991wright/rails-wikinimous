@@ -6,4 +6,4 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-10.times { Article.create(title: Faker::DragonBall.character, content: Faker::Lovecraft.paragraphs.join) }
+10.times { Article.create(title: Faker::Dessert.variety, content: Faker::Lovecraft.sentences(50).join) }
